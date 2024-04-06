@@ -1,5 +1,3 @@
-KeyLogger Software:-
-
 import os
 from datetime import datetime
 import pyxhook
