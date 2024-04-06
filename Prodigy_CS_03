@@ -1,4 +1,3 @@
-Password Checker
 
 import re
 
@@ -15,13 +14,13 @@ class PasswordChecker:
         return self.length >= 8
 
     def check_uppercase(self):
-        return self.uppercase
+        return self.uppercase()
 
     def check_lowercase(self):
-        return self.lowercase
+        return self.lowercase()
 
     def check_digits(self):
-        return self.digits
+        return self. digits()
 
     def check_special_chars(self):
         return bool(self.special_chars)
